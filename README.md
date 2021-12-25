@@ -6,7 +6,7 @@ However, sub-metering by installing sensors or meters is not always economic in 
 
 ![](http://nilmtk.github.io/img/submetered.png)
 
-This project develops a machine learning based energy disaggregation algorithm, which adapts [U-Net](https://arxiv.org/abs/1505.04597) for 1-D time sequence to sequence translation.
+This project develops a machine learning based energy disaggregation algorithm, which adapts [U-Net](https://arxiv.org/abs/1505.04597) for 1-D time sequence to sequence translation. Input whole-home aggregate power curve, output individual appliances' power curves.
 
 <img src="https://miro.medium.com/max/1838/1*f7YOaE4TWubwaFF7Z1fzNw.png" alt="drawing" width="600"/>
 
