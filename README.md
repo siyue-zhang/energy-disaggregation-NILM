@@ -24,6 +24,16 @@ This proejct uses [nilmtk](http://nilmtk.github.io/) python library to preproces
 
 ## Train and test results
 
+* Train
+
 Take dish washer as example, around one year measurement data from REFIT is divided into training set (75%) and testing set (25%), as showen in the figure below. The dish washer machine is turned on one or two times a day in average. Each time, it has three power peaks around 1500 W.
 
 ![train](./images/refit-DW.png)
+
+* Test
+
+After training, the adapted U-Net model is tested and evaluated by the mean absolute error metrics. As the figure below presents, the prediction of dish washer power curve is quite close to the real measurement. Both low MAE value and the test figures prove the success of this U-Net based NILM algorithm.
+
+I'm comparing this performance with other state-of-the-art NILM algorithms.
+
+![test](./dw-test.png)
