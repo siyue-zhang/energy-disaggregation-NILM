@@ -6,16 +6,16 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 import pickle
-import torch
+# import torch
 
 rcParams['figure.figsize'] = (13, 6)
 
 # System
 
-def get_device():
-    use_cuda = torch.cuda.is_available()
-    device = torch.device("cuda:0" if use_cuda else "cpu")
-    return device
+# def get_device():
+#     use_cuda = torch.cuda.is_available()
+#     device = torch.device("cuda:0" if use_cuda else "cpu")
+#     return device
 
 def save_file(data, fname, fpath="./"):
     with open(fpath + fname+ f".pkl", 'wb') as f:
