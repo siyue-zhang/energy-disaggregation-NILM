@@ -21,3 +21,9 @@ Download: https://pureportal.strath.ac.uk/en/datasets/refit-electrical-load-meas
 This proejct uses [nilmtk](http://nilmtk.github.io/) python library to preprocess the raw data. This tool is designed specifically to enable the comparison of energy disaggregation algorithms in a reproducible manner. For example, `plot_wen_on function` in nilmtk visualizes when the appliances are above the defined power threshold in House 2 as the figure below. 
 
 ![time-use](./images/time-use.png)
+
+## Train and test results
+
+Take dish washer as example, around one year measurement data from REFIT is divided into training set (75%) and testing set (25%), as showen in the figure below. The dish washer machine is turned on one or two times a day in average. Each time, it has three power peaks around 1500 W.
+
+![train](./images/refit-DW.png)
