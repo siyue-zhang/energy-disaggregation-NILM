@@ -14,5 +14,6 @@ Download: https://pureportal.strath.ac.uk/en/datasets/refit-electrical-load-meas
 
 ## Open source NILM toolkit
 
-This proejct uses [nilmtk](http://nilmtk.github.io/) python library to preprocess the raw data. This tool is designed specifically to enable the comparison of energy disaggregation algorithms in a reproducible manner. 
+This proejct uses [nilmtk](http://nilmtk.github.io/) python library to preprocess the raw data. This tool is designed specifically to enable the comparison of energy disaggregation algorithms in a reproducible manner. For example, plot_wen_on function in `nilmtk` visualizes when the appliances are above the defined power threshold in House 2 as the figure below. 
 
+![]("./images/time-use.png")
