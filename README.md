@@ -34,6 +34,6 @@ Take dish washer as example, around one year measurement data from REFIT is divi
 
 After training, the adapted U-Net model is tested and evaluated by the mean absolute error metrics. As the figure below presents, the prediction of dish washer power curve is quite close to the real measurement. Both low MAE value and the test figures prove the success of this U-Net based NILM algorithm.
 
-I'm comparing this performance with other state-of-the-art NILM algorithms.
+It's currently being compared to other state-of-the-art NILM algorithms.
 
-![test](./dw-test.png)
+![test](./images/dw-test.png)
